@@ -34,13 +34,13 @@ public class Json {
 
             }
 
-
             String temp = "Температура: " + jsonObject.getJSONObject("main").getDouble("temp") + "°C" + "\n";
             String wind = "Ветер " + jsonObject.getJSONObject("wind").getDouble("speed") + "м/с" + "\n";
             String humidity = "Влажность " + jsonObject.getJSONObject("main").getDouble("humidity") + "%";
 
             String tw = weather + "\n" + temp + wind + humidity;
             System.out.println(tw);
+            System.out.println();
             // result_info.setText(tw);
 
         } catch (
