@@ -41,6 +41,7 @@ public class Json {
             String tw = weather + "\n" + temp + wind + humidity;
             System.out.println(tw);
             System.out.println();
+            System.out.println();
             // result_info.setText(tw);
 
         } catch (
